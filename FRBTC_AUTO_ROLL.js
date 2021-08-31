@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version      4.10
+// @version      5.0
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
 // @name         Freebitco.in AUTO ROLL
@@ -66,7 +66,7 @@ $(document).ready(function(){
     setTimeout(function(){
         $('#free_play_form_button').click();
         console.log("Status: Button ROLL clicked.");
-    }, random(15000,20000));
+    }, random(10000,15000));
     setInterval(function(){
         console.log("Status: Elapsed time " + count_min + " minutes");
         count_min = count_min + 1;
