@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      5.0
+// @version      5.1
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL
+// @name         Freebitco.in AUTO ROLL (V5.1)
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
