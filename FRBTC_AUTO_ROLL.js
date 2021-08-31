@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version      4.9
+// @version      4.10
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
 // @name         Freebitco.in AUTO ROLL
