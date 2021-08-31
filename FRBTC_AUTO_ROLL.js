@@ -5,8 +5,8 @@
 // @name         Freebitco.in AUTO ROLL
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
-// @updateURL    https://github.com/kseryszko/frbtc/edit/main/FRBTC_AUTO_ROLL.js
-// @downloadURL  https://github.com/kseryszko/frbtc/edit/main/FRBTC_AUTO_ROLL.js
+// @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
+// @downloadURL  https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
 // ==/UserScript==
 
 (function() {
