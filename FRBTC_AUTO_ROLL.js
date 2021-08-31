@@ -1,10 +1,12 @@
 // ==UserScript==
-// @version      4.8
+// @version      4.9
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL (without captcha) + 100 REWARD POINTS + 1000% BONUS 2021
+// @name         Freebitco.in AUTO ROLL
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
+// @updateURL    https://github.com/kseryszko/frbtc/edit/main/FRBTC_AUTO_ROLL.js
+// @downloadURL  https://github.com/kseryszko/frbtc/edit/main/FRBTC_AUTO_ROLL.js
 // ==/UserScript==
 
 (function() {
