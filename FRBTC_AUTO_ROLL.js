@@ -66,7 +66,7 @@ $(document).ready(function(){
     setTimeout(function(){
         $('#free_play_form_button').click();
         console.log("Status: Button ROLL clicked.");
-    }, random(13000,15000));
+    }, random(20000,25000));
     setInterval(function(){
         console.log("Status: Elapsed time " + count_min + " minutes");
         count_min = count_min + 1;
