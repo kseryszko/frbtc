@@ -83,4 +83,7 @@ $(document).ready(function(){
 function random(min,max){
    return min + (max - min) * Math.random();
 }
+    setTimeout(function() {
+    document.getElementById('logo_span_container').innerHTML = ' RP = ' + reward.points;
+    }, 2000);
 })();
