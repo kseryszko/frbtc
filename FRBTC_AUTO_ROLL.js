@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      5.5
+// @version      5.6
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL (V5.5)
+// @name         Freebitco.in AUTO ROLL (V5.6)
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -48,17 +48,17 @@ var reward = {};
             else if (reward.points < 2880) {
 //            else if (reward.points < 600) {
                     console.log("waiting for points 120");
-                RedeemRPProduct('free_wof_3');
+                RedeemRPProduct('free_wof_2');
 //                RedeemRPProduct('free_points_10');
                 }
             else if (reward.points < 3600) {
 //            else if (reward.points < 1200) {
                     console.log("waiting for points 600");
-                RedeemRPProduct('free_wof_4');
+                RedeemRPProduct('free_wof_2');
 //                RedeemRPProduct('free_points_50');
                 }
             else {
-                RedeemRPProduct('free_wof_5');
+                RedeemRPProduct('free_wof_2');
 //                RedeemRPProduct('free_points_100');
             }
 //            if ($('#bonus_span_free_lott').length === 0)
