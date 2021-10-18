@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      5.6
+// @version      5.7
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL (V5.6)
+// @name         Freebitco.in AUTO ROLL (V5.7)
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -18,7 +18,8 @@ var reward = {};
     reward.select = function() {
         reward.points = parseInt($('.user_reward_points').text().replace(',',""));
         reward.bonustime = {};
-        if ($("#bonus_container_free_points").length != 0) {
+        if ($("#bonus_container_free_wof").length != 0) {
+//        if ($("#bonus_container_free_points").length != 0) {
             reward.bonustime.text = $('#bonus_span_free_points').text();
             reward.bonustime.hour = parseInt(reward.bonustime.text.split(":")[0]);
             reward.bonustime.min = parseInt(reward.bonustime.text.split(":")[1]);
