@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      5.9
+// @version      5.10
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL (V5.9)
+// @name         Freebitco.in AUTO ROLL (V5.10)
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -73,7 +73,7 @@ $(document).ready(function(){
     setTimeout(function(){
         $('#free_play_form_button').click();
         console.log("Status: Button ROLL clicked.");
-    }, random(55000,60000));
+    }, random(20000,25000));
     setInterval(function(){
         console.log("Status: Elapsed time " + count_min + " minutes");
         count_min = count_min + 1;
