@@ -1,8 +1,8 @@
 // ==UserScript==
-// @version      5.10
+// @version      5.11
 // @match        https://freebitco.in/*
 // @match        http*://www.google.com/recaptcha/*
-// @name         Freebitco.in AUTO ROLL (V5.10)
+// @name         Freebitco.in AUTO ROLL (V5.11)
 // @description  You need to create an account to work in:
 // @license      GPL-3.0
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -31,7 +31,7 @@ var reward = {};
         if (reward.bonustime.current !== 0) {
             console.log(reward.bonustime.current);
         } else {
-            if (reward.points < 720) {
+            if (reward.points < 100720) {
                 console.log("waiting for points");
             }
             else if (reward.points < 1440) {
