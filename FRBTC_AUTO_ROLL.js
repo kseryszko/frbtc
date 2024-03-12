@@ -1,7 +1,7 @@
 // ==UserScript==
-// @version      5.01
+// @version      5.1
 // @match        https://freebitco.in/*
-// @name         Freebitco.in AUTO ROLL (V5.01)
+// @name         Freebitco.in AUTO ROLL (V5.1)
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
 // @downloadURL  https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
 // ==/UserScript==
