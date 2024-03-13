@@ -272,4 +272,8 @@ var reward = {};
             }
     }, 2000);
 
+setTimeout(function() {
+location.reload();
+}, 3600000);
+
 })();
