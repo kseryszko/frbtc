@@ -1,7 +1,7 @@
 // ==UserScript==
-// @version      5.2
+// @name         Freebitco.in AUTO ROLL (V5.3)
+// @version      5.3
 // @match        https://freebitco.in/*
-// @name         Freebitco.in AUTO ROLL (V5.2)
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
 // @downloadURL  https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
