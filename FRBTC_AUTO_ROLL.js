@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V5.5)
-// @version      5.5
+// @name         Freebitco.in AUTO ROLL (V6.0)
+// @version      6.0
 // @match        https://freebitco.in/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -13,6 +13,7 @@
     let url = window.location.href;
 
     // Initialize buyLottery variable and number_ticket variable
+    let playwof = false;
     let buyLottery = false; //Default is false, set to true if you want to buy lottery ticket after every roll
     let number_ticket = 1; //Default is 1
 
@@ -137,7 +138,9 @@ var reward = {};
                 }, 5000);
             }
         }, 2000);
-/*
+
+      if (playwof) {
+
         //Open WoF tab after 15s
         setTimeout(function() {
             //Reload the page to see if there is WoF div present
@@ -182,7 +185,7 @@ var reward = {};
                 console.log("The div with ID 'free_wof_spins_msg' does not exist.");
             }
         }, 10000);
-*/
+
         // Play WoF and close the tab
         if (url.includes("https://freebitco.in/static/html/wof/wof-premium.html")) {
             $(document).ready(function() {
@@ -212,7 +215,7 @@ var reward = {};
             console.log("This is not the page we are looking for.");
         }
     }
-
+    }
     setTimeout(function() {
     document.getElementById('logo_span_container').innerHTML = 'Nieznane konto';
     }, 1000);
@@ -269,9 +272,6 @@ var reward = {};
             }
             else if (address.value == '1NqjHRHMgN3iE6gRTjffkkS4DjtCdMgt3R') {
                 document.getElementById('logo_span_container').innerHTML = 'Ref16|RP=' + reward.points;
-            }
-            else {
-                document.getElementById('logo_span_container').innerHTML = 'Nieznane konto';
             }
     }, 2000);
 
