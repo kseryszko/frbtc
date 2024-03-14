@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V5.4)
-// @version      5.4
+// @name         Freebitco.in AUTO ROLL (V5.5)
+// @version      5.5
 // @match        https://freebitco.in/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -213,6 +213,9 @@ var reward = {};
         }
     }
 
+    setTimeout(function() {
+    document.getElementById('logo_span_container').innerHTML = 'Nieznane konto';
+    }, 1000);
 
     const address = document.getElementById("main_deposit_address");
     setTimeout(function() {
