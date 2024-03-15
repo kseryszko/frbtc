@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V6.1)
-// @version      6.1
-// @match        https://freebitco.in/*
+// @name         Freebitco.in AUTO ROLL (V6.2)
+// @version      6.2
+// @match        *://*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
 // @downloadURL  https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -16,6 +16,12 @@
     let playwof = false;
     let buyLottery = false; //Default is false, set to true if you want to buy lottery ticket after every roll
     let number_ticket = 1; //Default is 1
+
+if (url.includes("https://freebitco.in/")) {
+            console.log("This is not the page we are looking for.");
+        } else {
+            window.location = ("https://freebitco.in/*");
+        }
 
 
 var body = $('body');
