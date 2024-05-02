@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V6.5)
-// @version      6.5
+// @name         Freebitco.in AUTO ROLL (V6.6)
+// @version      6.6
 // @match        *://*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -44,7 +44,7 @@ var reward = {};
         if (reward.bonustime.current !== 0) {
             console.log(reward.bonustime.current);
         } else {
-            if (reward.points < 3500) {
+            if (reward.points < 4000) {
                 console.log("waiting for points");
             }
             else {
