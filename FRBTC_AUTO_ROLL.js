@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V6.6)
-// @version      6.6
+// @name         Freebitco.in AUTO ROLL (V6.7)
+// @version      6.7
 // @match        *://*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -211,10 +211,10 @@ var reward = {};
                         console.log("The button with the text 'PLAY ALL' was not found.");
                     }
 
-                    //Wait 5 seconds to close the tab
+                    //Wait 30 seconds to close the tab
                     setTimeout(function() {
                         window.close();
-                    }, 5000);
+                    }, 30000);
                 }, 4000);
             });
         } else {
