@@ -211,10 +211,10 @@ var reward = {};
                         console.log("The button with the text 'PLAY ALL' was not found.");
                     }
 
-                    //Wait 15 seconds to close the tab
+                    //Wait 30 seconds to close the tab
                     setTimeout(function() {
                         window.close();
-                    }, 15000);
+                    }, 30000);
                 }, 4000);
             });
         } else {
