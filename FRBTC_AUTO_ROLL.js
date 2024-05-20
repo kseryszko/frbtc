@@ -282,6 +282,9 @@ var reward = {};
             else if (address.value == '1DdKBwv2sUVD4bQiGQ3RbyPHb9zZhjftyJ') {
                 document.getElementById('logo_span_container').innerHTML = 'Ref17|RP=' + reward.points;
             }
+            else if (address.value == '1BcgpojDPvioPZxrGTQmF5GnKNUDybzEAZ') {
+                document.getElementById('logo_span_container').innerHTML = 'Ref17|RP=' + reward.points;
+            }
         }, 2000);
 
 setTimeout(function() {
