@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V6.8)
-// @version      6.8
+// @name         Freebitco.in AUTO ROLL (V7.0)
+// @version      7.0
 // @match        *://*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -172,7 +172,7 @@ var reward = {};
                     let clickEvent = document.createEvent('MouseEvents');
                     clickEvent.initEvent('click', true, true);
                     link.dispatchEvent(clickEvent);
-                /*    //Wait 2s to close the div
+                    //Wait 2s to close the div
                      setTimeout(function() {
                          // Select the element using its class and onclick attribute
                          let specificCloseButton = document.querySelector('.close[onclick="CloseAlertMsg(\'free_wof_spins\',1);"]');
@@ -183,7 +183,7 @@ var reward = {};
                          } else {
                              console.log("The specific close button was not found.");
                          }
-                    }, 2000); */
+                    }, 2000);
                 } else {
                     console.log("The 'Play them here!' link was not found.");
                 }
@@ -211,10 +211,10 @@ var reward = {};
                         console.log("The button with the text 'PLAY ALL' was not found.");
                     }
 
-                    //Wait 30 seconds to close the tab
+                    //Wait 15 seconds to close the tab
                     setTimeout(function() {
                         window.close();
-                    }, 30000);
+                    }, 15000);
                 }, 4000);
             });
         } else {
