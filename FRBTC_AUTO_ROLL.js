@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Freebitco.in AUTO ROLL (V7.1)
-// @version      7.1
+// @name         Freebitco.in AUTO ROLL (V7.2)
+// @version      7.2
 // @match        *://*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @updateURL    https://raw.githubusercontent.com/kseryszko/frbtc/main/FRBTC_AUTO_ROLL.js
@@ -13,7 +13,7 @@
     let url = window.location.href;
 
     // Initialize buyLottery variable and number_ticket variable
-    let playwof = true;
+    let playwof = false;
     let buyLottery = false; //Default is false, set to true if you want to buy lottery ticket after every roll
     let number_ticket = 1; //Default is 1
 
